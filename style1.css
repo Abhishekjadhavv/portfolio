@@ -107,8 +107,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
-/* .btn-1{
-    padding: 0.7rem;
+.btn-1{
+    padding: 0.7rem 2rem;
     border: 1px solid var(--color-light);
     border-radius: 5px;
     outline: none;
@@ -120,9 +120,9 @@ body {
     border-color: var(--color-primary);
     background-color: var(--color-primary);
     color: var(--color-white);
-} */
+} 
 
-/* .btn-2{
+ .btn-2{
     border-color:var(--color-primary) ;
    background-color: var(--color-primary);
    color: var(--color-white);
@@ -132,30 +132,10 @@ body {
     background-color: var(--color-white);
     border-color: var(--color-white);
     color: var(--color-bg-variant);
-} */
+}
 .buttos {
     flex-wrap: wrap;
 }
-
-.btn-1 {
-    background: url(/img/button.png);
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 9px 15px 8px 21px;
-    color: #000;
-    border: 1px solid #000;
-    border-radius: 4px;
-    background-position: right;
-    filter: invert(1);
-    font-weight: 600;
-    
-}
-
-.btn-1:active{
-    transform: scale(0.9);
-}
-
 
 /* ----- utility classes end------ */
 /* ----- pop-up-box ----- */
@@ -299,44 +279,80 @@ header .navbar {
 }
 
 .buttos {
-    margin-bottom: 15px;
-}
-
-.home-img {
     margin-top: 30px;
 }
 
-.home-img img {
-    border-top-left-radius: 115px;
-    border-top-right-radius: 115px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    box-shadow: 0px .3rem .5rem var(--color-bg-variant);
+.social-media {
+    max-width: 300px;
+    margin: 50px auto;
 }
 
-.icons {
-    position: fixed;
-    left: 25px;
-    top: 50%;
-    transform: translateY(-50%);
-    flex-flow: column;
-    z-index: 1999;
+.social-media div {
+    width: 100%;
+    background-color: #fff;
+    margin: 10px 0px;
+    border-radius: 17px;
 }
 
-.icons a i {
-    font-size: 2rem;
-    color: var(--color-primary);
-    cursor: pointer;
+.social-media div a {
+    padding: 15px;
 }
 
-.icons a i:hover {
-    color: var(--color-light);
+.social-media div a i {
+    font-size: 2.3rem;
 }
 
-.icons-line {
-    height: 40px;
-    width: 2px;
-    background-color: var(--color-light);
+.social-media div a span {
+    font-size: 1.4rem;
+    color: #171515;
+}
+
+.social-media .insta i {
+    color: #fb3958;
+}
+
+.social-media .github i {
+    color: #171515;
+}
+
+.social-media .linkedin i {
+    color: #0072b1;
+}
+
+.social-media .insta:hover {
+    background-color: #fb3958;
+}
+
+.social-media .insta:hover a i {
+    color: #fff;
+}
+
+.social-media .insta:hover a span {
+    color: #fff;
+}
+
+.social-media .github:hover {
+    background-color: #171515;
+}
+
+.social-media .github:hover a i {
+    color: #fff;
+}
+
+.social-media .github:hover a span {
+    color: #fff;
+}
+
+.social-media .linkedin:hover {
+    background-color: #0072b1;
+}
+
+.social-media .linkedin:hover a i {
+    color: #fff;
+}
+
+.social-media .linkedin:hover a span {
+    color: #fff;
 }
 
 /* --------- home section end ------ */
