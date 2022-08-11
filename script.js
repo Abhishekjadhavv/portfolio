@@ -1,6 +1,6 @@
 let icons = document.querySelectorAll(".menu-item li");
 let bar = document.querySelector('.bar i');
-let header = document.querySelector('header');
+let header = document.querySelector('.menu-item');
 let message_btn = document.querySelector(".message-btn");
 let pop_up_box = document.querySelector(".pop-up-box");
 
@@ -62,6 +62,14 @@ var swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
   breakpoints: {
     200: {
